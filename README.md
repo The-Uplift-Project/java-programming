@@ -37,7 +37,8 @@ A shop for buying daily groceries online and getting delivered at one's door ste
 
 Purpose | Technology/Tool Name | Official Website 
 ------------ | ------------- | -------------
- Backend | RESTful web services using Spring | https://spring.io/ 
+ Backend | RESTful web services using Spring | https://spring.io/
+ Fontend | HTML, CSS, JS | https://www.w3schools.com/
  Build Automation Tool | Maven | https://maven.apache.org/
  Database | MySQL | https://www.mysql.com/
  IDE | Intellij/STS/Other | https://www.jetbrains.com/idea/
@@ -61,6 +62,8 @@ https://www.youtube.com/watch?v=HXV3zeQKqGY
 
 https://www.youtube.com/watch?v=RGOj5yH7evk
 
+*Pro tip: Download GitHub Desktop from https://desktop.github.com/ and use that instead of Git Bash.* 
+
 4. Maven
 
 https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
@@ -68,6 +71,10 @@ https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 5. Junit
 
 https://www.tutorialspoint.com/junit/index.htm
+
+6. HTML, CSS
+
+https://www.youtube.com/watch?v=mU6anWqZJcc
  
 
 ### Project Timeline
