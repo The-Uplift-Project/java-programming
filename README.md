@@ -1,13 +1,21 @@
 ## Project Report for Java Team 2
 
-### How to run the project on your machine?
+### How to get started?
 
+#### Environment Setup
 1. Clone this repository. 
 2. Change branch from master branch to Team-JV-02 branch. This branch will be treated as Master branch for our team. (Meaning all our code will be in Team-JV-02 branch). Create all other branches from this branch.
 3. Open the project in your IDE. (Any IDE should be ok)
 4. Run the main DailyShopApplication class.
 5. Open a browser (preferably Chrome), type this url http://localhost:8080/ 
 6. If you see the 'Welcome to Daily Shop' message, you could successfully run the application.
+
+#### How to contribute?
+Pick of the issues or a task from the issue:
+https://github.com/Priya-Raut/java-programming/issues
+
+Comment on it that you are working on it.
+That all. Good luck!
 
 ### Team
 
