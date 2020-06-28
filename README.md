@@ -1,5 +1,14 @@
 ## Project Report for Java Team 2
 
+### How to run the project on your machine?
+
+1. Clone this repository. 
+2. Change branch from master branch to Team-JV-02 branch. This branch will be treated as Master branch for our team. (Meaning all our code will be in Team-JV-02 branch). Create all other branches from this branch.
+3. Open the project in your IDE. (Any IDE should be ok)
+4. Run the main DailyShopApplication class.
+5. Open a browser (preferably Chrome), type this url http://localhost:8080/ 
+6. If you see the 'Welcome to Daily Shop' message, you could successfully run the application.
+
 ### Team
 
 Role | Name | Email 
@@ -90,11 +99,3 @@ Week VIII	| 3rd Sept ~ 9th Sept |	Code Review
 Week IX	| 10th Sept ~ 16th Sept	| Integration Testing
 Week X | 17th Sept ~ 23rd Sept |	Documentation, Presentation
 
-### How to run the project on your machine?
-
-1. Clone this repository. 
-2. Change branch from master branch to Team-JV-02 branch. This branch will be treated as Master branch for our team. (Meaning all our code will be in Team-JV-02 branch). Create all other branches from this branch.
-3. Open the project in your IDE. (Any IDE should be ok)
-4. Run the main DailyShopApplication class.
-5. Open a browser (preferably Chrome), type this url http://localhost:8080/ 
-6. If you see the 'Welcome to Daily Shop' message, you could successfully run the application.
