@@ -11,11 +11,11 @@
 6. If you see the 'Welcome to Daily Shop' message, you could successfully run the application.
 
 #### How to contribute?
-Pick of the issues or a task from the issue:
+Pick of the issues or a task from an issue:
 https://github.com/Priya-Raut/java-programming/issues
 
 Comment on it that you are working on it.
-That all. Good luck!
+That's all. Good luck!
 
 ### Team
 
@@ -45,7 +45,7 @@ A shop for buying daily groceries online and getting delivered at one's door ste
 ### Project Requirements
 - User/Seller can register/login into the website
 - User selects a few items to buy from given items on the website
-- User gets the bill amount, expected delivery date for her order
+- User gets the bill amount he needs to pay
 - Seller should add/update/delete items available for purchase
 - Order gets stored in the database
 - Seller should see the orders placed on the same day sequentially as per the order time
@@ -100,7 +100,7 @@ Week | Duration | Goal
 ------------ | ------------- | -------------
 Week I	| 15th June ~ 21 June	| Learning Technologies + Knowledge Sharing
 Week II	| 22nd June ~ 28th | June	Project Design
-Week III &  IV	| 29th June ~ 12th | July	Build Back end features
+Week III &  IV	| 29th June ~ 12th July | Build Back end features
 Week V & VI	| 13th July ~ 26th August |	Build Front end features
 Week VII |	27th August ~ 2 Sept |	Unit Testing
 Week VIII	| 3rd Sept ~ 9th Sept |	Code Review
