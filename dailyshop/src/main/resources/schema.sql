@@ -1,8 +1,12 @@
-CREATE TABLE `ITEMS` (
-  `ITEM_ID` int(11) NOT NULL AUTO_INCREMENT,
-  `ITEM_NAME` varchar(50) NOT NULL,
-  `ITEM_PRICE` double(7,2) NOT NULL,
-  `ITEM_MIN_QUANTITY` double(3,2) NOT NULL,
-  `ITEM_CATEGORY` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`ITEM_ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
+create table ITEMS
+(
+    ITEM_ID bigint auto_increment
+        primary key,
+    NAME varchar(50) not null,
+    PRICE double(7,2) not null,
+    TOTAL_QUANTITY int not null,
+    CATEGORY varchar(50) null,
+    DEFAULT_QUANTITY int not null,
+    UNIT varchar(50) not null,
+    BRAND varchar(50) null
+);
