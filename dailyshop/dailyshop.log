@@ -1,0 +1,29 @@
+2020-07-25 22:57:18.608  INFO 3491 --- [main] c.t.dailyshop.DailyShopApplication       : Starting DailyShopApplication on Priyas-MBP.domain.name with PID 3491 (/Users/piya/GitHubWorkspace/java-programming/dailyshop/target/classes started by piya in /Users/piya/GitHubWorkspace/java-programming/dailyshop)
+2020-07-25 22:57:18.610  INFO 3491 --- [main] c.t.dailyshop.DailyShopApplication       : No active profile set, falling back to default profiles: default
+2020-07-25 22:57:19.123  INFO 3491 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-25 22:57:19.164  INFO 3491 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 1 JPA repository interfaces.
+2020-07-25 22:57:19.515  INFO 3491 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-25 22:57:19.521  INFO 3491 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 22:57:19.521  INFO 3491 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 22:57:19.593  INFO 3491 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 22:57:19.593  INFO 3491 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 948 ms
+2020-07-25 22:57:19.650  INFO 3491 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 22:57:19.944  INFO 3491 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 22:57:20.006  INFO 3491 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 22:57:20.034  INFO 3491 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 22:57:20.057  WARN 3491 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 22:57:20.065  INFO 3491 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-25 22:57:20.173  INFO 3491 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 22:57:20.217  INFO 3491 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-07-25 22:57:20.248  INFO 3491 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-25 22:57:20.338  INFO 3491 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-25 22:57:20.339  INFO 3491 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-25 22:57:20.578  INFO 3491 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 22:57:20.583  INFO 3491 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 22:57:20.683  INFO 3491 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-25 22:57:20.691  INFO 3491 --- [main] c.t.dailyshop.DailyShopApplication       : Started DailyShopApplication in 2.313 seconds (JVM running for 2.819)
+2020-07-25 22:57:26.968  INFO 3491 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 22:57:26.968  INFO 3491 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 22:57:26.973  INFO 3491 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-25 22:57:26.992  INFO 3491 --- [http-nio-8080-exec-1] c.t.dailyshop.web.InventoryController    : Inside getAllItems
+2020-07-25 23:05:46.873  INFO 3491 --- [http-nio-8080-exec-4] c.t.dailyshop.web.InventoryController    : Inside getAllItems
