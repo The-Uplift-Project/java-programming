@@ -107,3 +107,20 @@ Week VIII	| 3rd Sept ~ 9th Sept |	Code Review
 Week IX	| 10th Sept ~ 16th Sept	| Integration Testing
 Week X | 17th Sept ~ 23rd Sept |	Documentation, Presentation
 
+### Mid-Project Assessment
+
+#### What's over?
+
+So far, we have decided on a project idea, 'DailyShop,' a grocery delivery service. 
+We have agreed on our tech stack and learned basic concepts for the same. 
+We have designed the table schemas and briefly outlined the backend services and their interaction with each other. 
+We have established a database connection in the project, created a table in MySQL, a relational database, and developed a RESTful API using Spring, a popular Java framework.
+
+#### What's next?
+We are now looking forward to creating the rest of the tables, the detailed design of every API, and implementing the same using Spring. Along the way, we are looking forward to learning and implementing Object-Oriented concepts, Design patterns, Security in Spring.
+
+#### How is project adherence to the original timeline?
+We are diverted from our original timeline. 
+We have decided that we will reduce the project scope to maximise learning. 
+We initially chose to build an end to end website. 
+But now we will develop only backend services using Spring test them using an API client.
