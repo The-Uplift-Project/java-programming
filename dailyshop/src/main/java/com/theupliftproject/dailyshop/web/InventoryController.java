@@ -1,7 +1,7 @@
 package com.theupliftproject.dailyshop.web;
 
-import com.theupliftproject.dailyshop.DailyShopApplication;
 import com.theupliftproject.dailyshop.data.entity.Item;
+import com.theupliftproject.dailyshop.logic.dto.exception.NoItemsExistsException;
 import com.theupliftproject.dailyshop.logic.service.InventoryManagementService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -34,7 +33,13 @@ public class InventoryController {
     public List<Item> getAllItems(@RequestParam(name = "page") int page, @RequestParam(name = "size") int size){
         LOGGER.info("Inside getAllItems");
         List<Item> items = this.inventoryManagementService.getAllItems(page, size);
-        if(items != null && !items.isEmpty()) return items;
-        else return new ArrayList<>(); // return error
+        if(items != null && !items.isEmpty()){
+            LOGGER.info("Returning Items..");
+            return items;
+        }
+        else{
+            LOGGER.info("No items exist..");
+            throw new NoItemsExistsException();
+        }
     }
 }
